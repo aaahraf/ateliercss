@@ -1,0 +1,60 @@
+#head{
+    background-image:url("img/top_bg.png");
+    margin:-10px;
+    height:50px;
+}
+.sommeimg {
+    margin: 0 250px;
+    height: 1000px;
+}
+
+.img {
+    margin-top: 10px;
+    height: 400px;
+    background-image: url("img/flash_img.png");
+    background-repeat:no-repeat;
+}
+
+.logo {
+    margin-left: -10px;
+}
+.tableau{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    background-color: brown;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 56.5px;
+}
+.li{
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover{
+    background-image: url("img/rings.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s ease-in;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    margin-right: 35px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-right: 45px;
+}
+#footer{
+    background-image: url("img/foot_bg.png");
+     margin:-10px;
+    height:212px;
+}
